@@ -292,7 +292,7 @@ class HandGestureControl:
                     self.consecutive_count = 0
 
             elif idx == 1:
-                threading.Thread(target=self.move_mouse, args=(hand_landmarks), daemon=True).start()
+                threading.Thread(target=self.move_mouse, args=(hand_landmarks,), daemon=True).start()
 
             self.mp_drawing.draw_landmarks(
                 frame,
@@ -312,7 +312,7 @@ class HandGestureControl:
 
     
     def start(self):
-        cap = cv2.VideoCapture(0)
+        cap = cv2.VideoCapture(1)
         while cap.isOpened():
             ret, frame = cap.read()
             if not ret:
