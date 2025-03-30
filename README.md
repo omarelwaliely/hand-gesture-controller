@@ -62,7 +62,7 @@ gesture_key_map = {
     'toggle crouch': ('k',-5)
 }
 ```
-Note that the numbers is how long between frames it allows you to perform the key again. For example if you do forward then change then do forward again within 15 frames it would not activate a second time, and negative sign is a toggle key rather than you having to keep holding up the sign.
+Note that the numbers is how long between frames it allows you to perform the key again. For example if you do forward then change then do forward again within 15 frames it would not activate a second time, and negative sign is a toggle key rather than you having to keep holding up the sign. If you need to reconfigure anything it'll be this part since I had to use a 25 fps camera.
 
 ## Notes
 - Ensure your camera is working correctly before launching the script.
