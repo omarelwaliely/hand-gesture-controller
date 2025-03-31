@@ -10,7 +10,7 @@ Hand Gesture Controller is a Python-based project that allows players to control
 - **Real-time Tracking**: Smooth and responsive tracking using threading for better control.
 
 ## Requirements
-Ensure you have the following installed:
+Ensure you have the following installed (or just pip install the requirements.txt):
 - Python 3.x
 - OpenCV (`pip install opencv-python`)
 - Mediapipe (`pip install mediapipe`)
@@ -21,7 +21,7 @@ Ensure you have the following installed:
 1. Clone this repository:
    ```bash
    git clone https://github.com/omarelwaliely/hand-gesture-controller.git
-   cd minecraft-gesture-controller
+   cd hand-gesture-controller
    ```
 2. Install dependencies:
    ```bash
