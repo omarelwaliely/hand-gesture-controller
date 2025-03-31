@@ -70,6 +70,9 @@ Note that the numbers is how long between frames it allows you to perform the ke
 - Close the application using the `Q` key.
 - The crouch key and sprint key were set to 'k' and 'r' due to limitations on my machine, but you should be able to map it to 'lshift' and 'lctrl'
 
+## Demo
+You can watch the video I made about it here: https://www.youtube.com/watch?v=ptPSoHQEccY
+
 ## License
 This project is open-source and available under the MIT License.
 
